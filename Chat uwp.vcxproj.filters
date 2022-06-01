@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>ed7ac6b7-b8b0-4e6f-8782-e06791ec99e0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>fda1ace3-dd0a-4bb8-b82a-61f964a0cb50</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Contacts.cpp" />
+    <ClCompile Include="Story.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="NewGp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Contacts.h" />
+    <ClInclude Include="Story.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="NewGp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\bg3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\bg4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\status.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\chat.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\settings.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\contacts.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\icons8-contact-50.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\icons8-email-send-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\sent.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\sign-out.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\dehk.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\Default.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\IMG_8040.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\bely.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\seif.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\tarek.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\yasser.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\IMG_8040.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\undo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\IMG_8040.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\arrow.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\images\close-90.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\wael.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\tarek.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\istockphoto-1276165275-170667a.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\Screenshot 2022-05-20 141239.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\group_def.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pp\Screenshot 2022-05-29 194516.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\Story 1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\Story 2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\Story 3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\dehk.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="RegisterPage.xaml" />
+    <Page Include="Entry.xaml" />
+    <Page Include="AddContact.xaml" />
+    <Page Include="ChatsUC.xaml" />
+    <Page Include="ContactsUC.xaml" />
+    <Page Include="ContactUC.xaml" />
+    <Page Include="messageUC.xaml" />
+    <Page Include="StatusUC.xaml" />
+    <Page Include="TextSpace.xaml" />
+    <Page Include="EditUC.xaml" />
+    <Page Include="AddStatusUC.xaml" />
+    <Page Include="NewGroupUC.xaml" />
+    <Page Include="StatusViewerUC.xaml" />
+    <Page Include="ContactDataView.xaml" />
+    <Page Include="messageGroupUC.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\fonts\Reef.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="reg.txt.txt" />
+  </ItemGroup>
+</Project>

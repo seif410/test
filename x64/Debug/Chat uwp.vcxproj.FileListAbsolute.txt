@@ -1,0 +1,40 @@
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\App.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AddContact.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AddStatusUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ChatsUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactDataView.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactsUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\EditUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\Entry.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\MainPage.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\messageUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\NewGroupUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\RegisterPage.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\StatusUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\StatusViewerUC.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\TextSpace.xbf
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\resources.pri
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AppxManifest.xml
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\Chat uwp.build.appxrecipe
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp.vcxproj.AssemblyReference.cache
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\XamlSaveStateFile.xml
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\ResourceHandlingTask.state
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp.vcxproj.GenerateResource.Cache
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\priconfig.xml
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\priconfig.xml.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\unfiltered.layout.resfiles
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\filtered.layout.resfiles
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\filtered.layout.resfiles.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\excluded.layout.resfiles
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\excluded.layout.resfiles.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\resources.resfiles
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\resources.resfiles.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\pri.resfiles
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\pri.resfiles.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\qualifiers.txt
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\qualifiers.txt.intermediate
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\ProjectArchitectures.txt
+D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\messageGroupUC.xbf

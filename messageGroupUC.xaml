@@ -1,0 +1,60 @@
+﻿<UserControl
+    x:Class="Chat_uwp.messageGroupUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chat_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="reef"
+    Height="auto"
+    MinWidth="60"
+    MaxWidth="500"
+    Margin="4"
+    HorizontalAlignment="Left">
+    <!--  #0d192b  -->
+    <Grid
+        x:Name="message_grid"
+        MinWidth="60"
+        MaxWidth="500"
+        Background="#0d192b"
+        CornerRadius="7">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="54" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="visi" Visibility="Collapsed"/>
+        <TextBlock x:Name="fName_lbl" FontSize="19" Text="Ahmed ELSayed" HorizontalAlignment="Left" Margin="10,2,0,0" Foreground="#FF7F8916" Visibility="Visible" />
+        <TextBlock
+            x:Name="message_lbl"
+            Grid.Column="0"
+            Grid.Row="1"
+            Width="auto"
+            MaxWidth="400"
+            Margin="10,5,10,7"
+            HorizontalAlignment="Left"
+            FontFamily="Reef"
+            FontSize="17"
+            Foreground="#FFE9E9E9"
+            Text="hello therre triua adfadf   vm,a;kjhfd adkfhuefaba adsfj;kj adjf;jkaf"
+            TextWrapping="Wrap" />
+        <TextBlock
+            x:Name="time_lbl"
+            Grid.Column="1"
+            Grid.Row="2"
+            Width="50"
+            Height="15"
+            Margin="0,0,0,10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            FontFamily="Reef"
+            FontSize="12"
+            Foreground="#FF1F3F58"
+            Text="3:36 am" />
+    </Grid>
+</UserControl>

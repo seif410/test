@@ -1,0 +1,134 @@
+﻿<Page
+    x:Class="Chat_uwp.Entry"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Chat_uwp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    FontFamily="Reef"
+    mc:Ignorable="d">
+
+    <Grid
+        Width="auto"
+        Height="auto"
+        Background="#FF000C1D">
+        <Grid
+            Width="1920"
+            Height="1080"
+            Opacity="0.06">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Assets/images/bg4.png" />
+            </Grid.Background>
+        </Grid>
+        <ScrollViewer
+            Width="68"
+            HorizontalAlignment="Left"
+            HorizontalScrollBarVisibility="Disabled"
+            VerticalScrollBarVisibility="Hidden">
+            <ScrollViewer.Background>
+                <SolidColorBrush Opacity="0.8" Color="#FF001F37" />
+            </ScrollViewer.Background>
+            <StackPanel Width="68" HorizontalAlignment="Left">
+
+                <Grid
+                    Width="56"
+                    Height="56"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Center"
+                    CornerRadius="7">
+                    <Image
+                        x:Name="image_image"
+                        Source="/Assets/pp/IMG_8040.jpg"
+                        Stretch="UniformToFill" />
+
+                </Grid>
+                <Button
+                    x:Name="status_btn"
+                    Width="48"
+                    Height="43"
+                    Margin="0,110,0,0"
+                    HorizontalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderThickness="0"
+                    Click="status_btn_Click"
+                    CornerRadius="7"
+                    FontSize="10">
+
+                    <Image Margin="-8,-8,-8,-8" Source="/Assets/images/status.png" />
+                </Button>
+                <Button
+                    x:Name="chat_btn"
+                    Width="48"
+                    Height="43"
+                    Margin="0,70,0,0"
+                    HorizontalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderThickness="0"
+                    Click="chat_btn_Click"
+                    CornerRadius="7"
+                    FontSize="10"
+                    Foreground="White">
+                    <Image Margin="-6,-6,-6,-6" Source="/Assets/images/chat.png" />
+                </Button>
+                <Button
+                    x:Name="contacts_btn"
+                    Width="45"
+                    Height="42"
+                    Margin="0,70,0,0"
+                    HorizontalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="0"
+                    Click="contacts_btn_Click"
+                    CornerRadius="7"
+                    FontSize="7"
+                    Foreground="White">
+                    <Image Margin="-8,-8,-8,-8" Source="/Assets/images/contacts.png" />
+                </Button>
+
+                <Button
+                    x:Name="settings_btn"
+                    Width="42"
+                    Height="42"
+                    Margin="0,70,0,0"
+                    HorizontalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="0"
+                    Click="settings_btn_Click"
+                    CornerRadius="7"
+                    FontSize="10"
+                    Foreground="White">
+                    <Image Margin="-8,-8,-8,-8" Source="/Assets/images/settings.png" />
+                </Button>
+
+                <Button
+                    x:Name="logout_btn"
+                    Width="42"
+                    Height="42"
+                    Margin="0,70,0,90"
+                    HorizontalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="0"
+                    Click="logout_btn_Click"
+                    CornerRadius="7"
+                    FontSize="8"
+                    Foreground="White">
+                    <Image Margin="-8,-8,-8,-8" Source="/Assets/images/sign-out.png" />
+                </Button>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Grid
+            x:Name="Content_grid"
+            Width="auto"
+            Height="auto"
+            Margin="68,0,0,0" />
+
+
+    </Grid>
+</Page>

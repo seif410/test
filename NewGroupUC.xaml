@@ -1,0 +1,308 @@
+﻿<UserControl
+    x:Class="Chat_uwp.NewGroupUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Chat_uwp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    FontFamily="reef"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Storyboard x:Name="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <Grid x:Name="grid"
+        Margin="20"
+        Background="#FF000C1D"
+        CornerRadius="7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="3*" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="title_lbl"
+                Grid.Column="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                CharacterSpacing="200"
+                Margin="0,0,0,40"
+                FontSize="30"
+                Foreground="White"
+                Text="Create new group chat" />
+            <TextBlock Text="Group" Foreground="white" FontSize="20" Margin="20,11,0,9"/>
+            <Button x:Name="group_btn" Background="#FF2C6490" CornerRadius="3" Margin="100,18,0,0" VerticalAlignment="Top" Height="17" Click="group_btn_Click" />
+            <TextBlock Text="Private" Foreground="white" FontSize="20" Margin="20,42,0,9"/>
+            <Button x:Name="private_btn" Background="#FF6C6C6C" CornerRadius="3" Margin="100,50,0,0" VerticalAlignment="Top" Height="17" Click="private_btn_Click" />
+            <Button x:Name="visi" Visibility="Collapsed" />
+        </Grid>
+        <ScrollViewer Grid.Row="2" Grid.RowSpan="4">
+            <StackPanel>
+                <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact1"
+                    TextWrapping="NoWrap" />
+                <TextBox
+                    x:Name="contact1_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+                <StackPanel x:Name="contacts_pnl2">
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact2"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact2_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact3"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact3_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact4"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact4_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact5"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact5_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact6"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact6_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact7"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact7_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact8"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact8_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+
+                    <TextBlock
+                    Margin="0,20,0,10"
+                    HorizontalAlignment="Center"
+                    CharacterSpacing="200"
+                    FontFamily="Reef"
+                    FontSize="15"
+                    FontWeight="Normal"
+                    Foreground="White"
+                    Text="Contact9"
+                    TextWrapping="NoWrap" />
+                    <TextBox
+                    x:Name="contact9_txt"
+                    Height="37"
+                    Margin="70,0,70,10"
+                    Background="{x:Null}"
+                    BorderBrush="#FFFFFF"
+                    BorderThickness="3"
+                    CornerRadius="7"
+                    TextWrapping="NoWrap" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="2" Grid.RowSpan="4" Grid.Column="1">
+            <Grid x:Name="image_grid" BorderBrush="White" BorderThickness="2" Margin="50" CornerRadius="7">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.ColumnSpan="2" Margin="20" BorderBrush="White" BorderThickness="2" CornerRadius="7" Background="#FF2C6490">
+                    <Image x:Name="image_image" Stretch="Uniform" Source="/Assets/pp/group_def.png"/>
+                </Grid>
+                <Button x:Name="addImage" Grid.Row="1" FontFamily="reef" HorizontalAlignment="Stretch" Height="30" CornerRadius="7" Background="#FF2C6490" Margin="20,0,20,10" Content="Add image" Foreground="white" Click="addImage_Click" />
+                <Button x:Name="remove" Grid.Row="1" Grid.Column="1" FontFamily="reef" HorizontalAlignment="Stretch" Height="30" CornerRadius="7" Background="#FF2C6490" Margin="20,0,20,10" Content="Remove" Foreground="white" Click="remove_Click" />
+            </Grid>
+        </Grid>
+
+        <TextBlock x:Name="groupName_lbl"
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Margin="0,0,0,70"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            CharacterSpacing="200"
+            FontFamily="Reef"
+            FontSize="15"
+            FontWeight="Normal"
+            Foreground="White"
+            Text="Group Name"
+            TextWrapping="NoWrap" />
+        <TextBox
+            x:Name="groupName_txt"
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Height="37"
+            MinWidth="100"
+            MaxWidth="330"
+            Margin="250,0"
+            Background="{x:Null}"
+            BorderBrush="#FFFFFF"
+            BorderThickness="3"
+            CornerRadius="7"
+            TextWrapping="NoWrap"/>
+
+
+        <Button
+            x:Name="create_btn"
+            Grid.Row="7"
+            Grid.ColumnSpan="2"
+            Height="37"
+            MinWidth="100"
+            MaxWidth="330"
+            Margin="250,0,250,0"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center"
+            Background="#FF2C6490"
+            Click="create_btn_Click"
+            Content="Create"
+            CornerRadius="7"
+            FontFamily="Reef"
+            FontSize="15"
+            Foreground="White" />
+    </Grid>
+</UserControl>

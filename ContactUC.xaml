@@ -1,0 +1,46 @@
+﻿<UserControl
+    x:Class="Chat_uwp.ContactUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Chat_uwp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Margin="5,7,5,0"
+    d:DesignHeight="100"
+    d:DesignWidth="250"
+    mc:Ignorable="d">
+
+    <Grid
+        Height="68"
+        Margin="0"
+        Background="#FF2C6490"
+        CornerRadius="7">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid
+            Grid.Column="0"
+            Width="50"
+            Height="50"
+            CornerRadius="7">
+            <Image
+                x:Name="image_image"
+                Source="/Assets/images/IMG_8040.jpg"
+                Stretch="UniformToFill" />
+        </Grid>
+        <Button
+            x:Name="name_btn"
+            Grid.Column="1"
+            Width="160"
+            Height="51"
+            HorizontalAlignment="Center"
+            Background="Transparent"
+            Click="name_btn_Click"
+            Content="Ahmed ehab mansour"
+            CornerRadius="7"
+            FontFamily="reef"
+            FontSize="16"
+            Foreground="White" />
+    </Grid>
+</UserControl>

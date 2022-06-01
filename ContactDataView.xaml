@@ -1,0 +1,32 @@
+﻿<UserControl
+    x:Class="Chat_uwp.ContactDataView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chat_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="auto"
+    Width="auto"
+    FontFamily="reef">
+    <UserControl.Resources>
+        <Storyboard x:Name="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <Grid x:Name="grid">
+        <StackPanel Background="#0d192b"  Height="600" Width="400" Padding="30,0" CornerRadius="15" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid BorderThickness="3" BorderBrush="#FF2A4E87" CornerRadius="7" Width="200" Height="200" Margin="0,30,0,40">
+                <Image x:Name="image_image" Stretch="UniformToFill" />
+            </Grid>
+            <TextBlock x:Name="name_lbl" Text="" Margin="0,0,0,20" Foreground="white" HorizontalAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="phone_lbl" Text="" CharacterSpacing="150" Foreground="white" HorizontalAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="description_lbl" Text="" Margin="10,40,10,30" TextWrapping="Wrap" Foreground="white" HorizontalAlignment="Center" FontSize="20"/>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,33 @@
+﻿<UserControl
+    x:Class="Chat_uwp.AddContact"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chat_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Width="auto"
+    Height="auto"
+    FontFamily="reef">
+    <UserControl.Resources>
+        <Storyboard x:ConnectionId='2' x:Name="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <Grid x:ConnectionId='3' x:Name="grid">
+        <StackPanel Background="#0d192b"  Height="530" Width="320" Padding="30,0" CornerRadius="15" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock TextWrapping="NoWrap" FontFamily="Reef" HorizontalAlignment="Center" Margin="0,40,0,90" Text="New contact"  FontSize="42" Foreground="White"  TextAlignment="Center" FocusVisualPrimaryBrush="Black" CharacterSpacing="100" FontWeight="Normal"  />
+            <TextBlock TextWrapping="NoWrap" Text="Phone Number" HorizontalAlignment="Center" FontFamily="Reef" FontSize="15" FontWeight="Normal" Margin="0,0,0,5" Foreground="White" CharacterSpacing="200"/>
+            <TextBox x:ConnectionId='4' x:Name="phoneNumber_txt" TextWrapping="NoWrap" Background="{x:Null}" BorderThickness="3" BorderBrush="#FFFFFF" CornerRadius="7" Margin="0,0,0,20"/>
+            <TextBlock TextWrapping="NoWrap" Text="Name" HorizontalAlignment="Center" FontFamily="Reef" FontSize="15" FontWeight="Normal" Margin="0,0,0,5" Foreground="White" CharacterSpacing="200"/>
+            <TextBox x:ConnectionId='5' x:Name="name_txt" TextWrapping="NoWrap" Background="{x:Null}" BorderThickness="3" BorderBrush="#FFFFFF" CornerRadius="7" Margin="0,0,0,80"/>
+            <Button x:ConnectionId='6' x:Name="add_btn" Content="Add Contact" HorizontalAlignment="Center" Margin="0,0,0,0" Width="260" Foreground="White" Background="#FF2C6490" CornerRadius="7" Height="37" FontSize="15" FontFamily="Reef"                       />
+
+        </StackPanel>
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SEIF</Machine>
+    <WindowsUser>Seif Amr</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>45a0fb34-57be-45c2-b1d7-d3d8a854ac56</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ahmed</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5C22BB8CBCAE94D228DA75FAF626FAF2440ABA9DEEA6CAB84B38197E9870F907</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>45a0fb34-57be-45c2-b1d7-d3d8a854ac56_1.0.0.0_x64__2qmkwvgz1k6ac</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>45a0fb34-57be-45c2-b1d7-d3d8a854ac56_2qmkwvgz1k6ac!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>45a0fb34-57be-45c2-b1d7-d3d8a854ac56</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ahmed</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-30T14:42:29.190</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\Chat uwp.exe">
+      <PackagePath>Chat uwp.exe</PackagePath>
+      <Modified>2022-05-31T16:35:17.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\Chat_uwp.winmd">
+      <PackagePath>Chat_uwp.winmd</PackagePath>
+      <Modified>2022-05-29T21:22:04.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\reg.txt.txt">
+      <PackagePath>reg.txt.txt</PackagePath>
+      <Modified>2022-05-13T03:14:48.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\fonts\Reef.otf">
+      <PackagePath>Assets\fonts\Reef.otf</PackagePath>
+      <Modified>2022-05-13T03:14:48.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\arrow.png">
+      <PackagePath>Assets\images\arrow.png</PackagePath>
+      <Modified>2022-05-18T10:39:01.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\bg3.png">
+      <PackagePath>Assets\images\bg3.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\bg4.png">
+      <PackagePath>Assets\images\bg4.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\chat.png">
+      <PackagePath>Assets\images\chat.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\close-90.png">
+      <PackagePath>Assets\images\close-90.png</PackagePath>
+      <Modified>2022-05-19T02:50:46.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\contacts.png">
+      <PackagePath>Assets\images\contacts.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\icons8-contact-50.png">
+      <PackagePath>Assets\images\icons8-contact-50.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\icons8-email-send-24.png">
+      <PackagePath>Assets\images\icons8-email-send-24.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\sent.png">
+      <PackagePath>Assets\images\sent.png</PackagePath>
+      <Modified>2022-05-17T23:47:50.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\settings.png">
+      <PackagePath>Assets\images\settings.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\sign-out.png">
+      <PackagePath>Assets\images\sign-out.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\status.png">
+      <PackagePath>Assets\images\status.png</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\undo.png">
+      <PackagePath>Assets\images\undo.png</PackagePath>
+      <Modified>2022-05-16T00:32:24.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-05-21T01:22:30.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\Default.png">
+      <PackagePath>Assets\pp\Default.png</PackagePath>
+      <Modified>2022-05-26T13:09:33.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\group_def.png">
+      <PackagePath>Assets\pp\group_def.png</PackagePath>
+      <Modified>2022-05-26T13:09:33.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\Screenshot 2022-05-20 141239.png">
+      <PackagePath>Assets\pp\Screenshot 2022-05-20 141239.png</PackagePath>
+      <Modified>2022-05-26T13:09:33.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\Screenshot 2022-05-29 194516.png">
+      <PackagePath>Assets\pp\Screenshot 2022-05-29 194516.png</PackagePath>
+      <Modified>2022-05-29T17:45:18.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-21T01:22:30.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-21T01:22:30.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-21T01:22:30.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-21T01:22:30.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-21T01:22:30.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-13T03:14:48.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\images\IMG_8040.jpg">
+      <PackagePath>Assets\images\IMG_8040.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\bely.jpg">
+      <PackagePath>Assets\pp\bely.jpg</PackagePath>
+      <Modified>2022-05-17T23:47:50.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\dehk.jpg">
+      <PackagePath>Assets\pp\dehk.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\IMG_8040.jpg">
+      <PackagePath>Assets\pp\IMG_8040.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\istockphoto-1276165275-170667a.jpg">
+      <PackagePath>Assets\pp\istockphoto-1276165275-170667a.jpg</PackagePath>
+      <Modified>2022-05-21T22:09:20.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\seif.jpg">
+      <PackagePath>Assets\pp\seif.jpg</PackagePath>
+      <Modified>2022-05-14T12:06:05.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\tarek.jpg">
+      <PackagePath>Assets\pp\tarek.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\wael.jpg">
+      <PackagePath>Assets\pp\wael.jpg</PackagePath>
+      <Modified>2022-05-15T17:17:29.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\pp\yasser.jpg">
+      <PackagePath>Assets\pp\yasser.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\dehk.jpg">
+      <PackagePath>Assets\story\dehk.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\IMG_8040.jpg">
+      <PackagePath>Assets\story\IMG_8040.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\Story 1.jpg">
+      <PackagePath>Assets\story\Story 1.jpg</PackagePath>
+      <Modified>2022-05-30T01:43:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\Story 2.jpg">
+      <PackagePath>Assets\story\Story 2.jpg</PackagePath>
+      <Modified>2022-05-30T01:43:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\Story 3.jpg">
+      <PackagePath>Assets\story\Story 3.jpg</PackagePath>
+      <Modified>2022-05-30T01:43:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\Assets\story\tarek.jpg">
+      <PackagePath>Assets\story\tarek.jpg</PackagePath>
+      <Modified>2022-05-13T03:14:48.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AddContact.xbf">
+      <PackagePath>AddContact.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\AddStatusUC.xbf">
+      <PackagePath>AddStatusUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ChatsUC.xbf">
+      <PackagePath>ChatsUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactDataView.xbf">
+      <PackagePath>ContactDataView.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactsUC.xbf">
+      <PackagePath>ContactsUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\ContactUC.xbf">
+      <PackagePath>ContactUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\EditUC.xbf">
+      <PackagePath>EditUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\Entry.xbf">
+      <PackagePath>Entry.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\messageGroupUC.xbf">
+      <PackagePath>messageGroupUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\messageUC.xbf">
+      <PackagePath>messageUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\NewGroupUC.xbf">
+      <PackagePath>NewGroupUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\RegisterPage.xbf">
+      <PackagePath>RegisterPage.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\StatusUC.xbf">
+      <PackagePath>StatusUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\StatusViewerUC.xbf">
+      <PackagePath>StatusViewerUC.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\TextSpace.xbf">
+      <PackagePath>TextSpace.xbf</PackagePath>
+      <Modified>2022-05-31T16:35:16.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-02T03:31:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\FCIS\2nd Year\4th Semester\Data Structures\Project\Chat App\x64\Debug\Chat uwp\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-05-30T14:42:29.084</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
